@@ -1,0 +1,32 @@
+.CompanyNameInput{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+    width: 363px;
+    height: 35px;
+    left: 532px;
+    top: 251px;
+
+    background: #FFFFFF;
+    border: 1px solid #868686;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+.CompanyNameInput::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+
+    color: #868686;
+}
+option{
+    margin-left: 17px;
+}
+
+select:focus {outline:0;}

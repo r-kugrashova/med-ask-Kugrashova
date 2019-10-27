@@ -1,0 +1,121 @@
+.App {
+    position: absolute;
+    width: 967px;
+    height: 704px;
+    left: calc(50% - 967px / 2 - 0.5px);
+    top: calc(50% - 704px / 2);
+
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 177.68%;
+    /* or 53px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#CheckervH {
+    position: absolute;
+    width: 664px;
+    height: 26px;
+    left: calc(50% - 664px / 2 + 0.5px);
+    top: calc(50% - 26px / 2 - 282px);
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 177.68%;
+    /* or 32px */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+#ChooseServH{
+    position: absolute;
+    width: 345px;
+    height: 26px;
+    left: 90px;
+    top: 344px;
+    height: 26px;
+    margin: 0;
+}
+
+#NewReqButUn{
+    position: absolute;
+    width: 165px;
+    height: 38px;
+    left: 401px;
+    top: 624px;
+
+    background: #FFFFFF;
+    border-radius: 50px;
+    border-color: #ED462F;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #ED462F;
+
+}
+
+#NewReqBut{
+    position: absolute;
+    width: 165px;
+    height: 38px;
+    left: 401px;
+    top: 624px;
+
+    background: #ED462F;
+    border-radius: 50px;
+    border-color: #ED462F;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+#refreshBut{
+    position: absolute;
+    width: 165px;
+    height: 38px;
+    left: 401px;
+    top: 624px;
+
+    background: #FFFFFF;
+    border-radius: 50px;
+    border-color: #ED462F;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #ED462F;
+
+}

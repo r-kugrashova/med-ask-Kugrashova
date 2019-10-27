@@ -1,0 +1,98 @@
+.choosenServices {
+    position: absolute;
+    width: 823px;
+    height: 300px;
+    left: 72px;
+    top: 435px;
+}
+input{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 168.18%;
+    /* or 30px */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+#container1 {
+    position: absolute;
+    left: 93px;
+    top: 442px;
+    width: 40%;
+    height: 200px;
+    margin: 0;
+}
+
+#container2{
+    position: absolute;
+    left: 484px;
+    top: 442px;
+    width: 40%;
+    height: 200px;
+    margin: 0;
+}
+
+#cancelBut{
+    margin-left: 8px;
+    display: inline-block;
+    width: 11px;
+    height: 12px;
+    background-image:url('../../cancel.png');
+    background-position: center;
+    border: transparent;
+    background-size: contain;
+}
+
+#choosenItem p{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #000000;
+}
+#choosenItem{
+    margin-bottom: 10px;
+    height: 24px;
+}
+
+#inserviceIcon{
+    display: inline-block;
+    height: 16px;
+    width: 20px;
+    background-image:url('../../inserviceIcon.png');
+    background-position: center;
+    border: transparent;
+    background-size: contain;
+}
+
+#outofserviceIcon{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-image:url('../../outofserviceIcon.png');
+    background-position: center;
+    border: transparent;
+    background-size: contain;
+}
+
+#noInfoIcon{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-image:url('../../noInfoIcon.png');
+    background-position: center;
+    border: transparent;
+    background-size: contain;
+}
+
+.CheckItem{
+    margin-left: 10px;
+    display: inline-block;
+}

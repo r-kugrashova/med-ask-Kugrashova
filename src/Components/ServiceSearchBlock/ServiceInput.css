@@ -1,0 +1,96 @@
+.ServiceInput:focus{
+    position: absolute;
+    width: 823px;
+    height: 35px;
+    left: 72px;
+    top: 390px;
+
+    background: transparent;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-indent: 18px;
+}
+
+.ServiceInput{
+    position: absolute;
+    width: 823px;
+    height: 35px;
+    left: 72px;
+    top: 390px;
+
+    background: #FFFFFF;
+    border: 1px solid #868686;
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-indent: 18px;
+}
+
+.ServiceInput::placeholder {
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #868686;
+}
+
+input:focus {
+    outline: 0;
+}
+
+
+#Autosuggest:hover {
+    background-color: #66D1C6;
+    color: #FFFFFF;
+}
+
+#Autosuggest {
+    height: 38px;
+    padding-left: 27px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: transparent;
+}
+
+#matches {
+    position: relative;
+    width: 824px;
+
+}
+#autosuggest_BG{
+    position: absolute;
+    width: 824px;
+    left: 72px;
+    top: 390px;
+    padding-top: 38px;
+    padding-bottom: 16px;
+
+    background: #FFFFFF;
+    border: 1px solid #66D1C6;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+#InpBg {
+    position: absolute;
+    width: 823px;
+    height: 35px;
+    left: 72px;
+    top: 390px;
+
+    background: #FFFFFF;
+    border: 1px solid #868686;
+    box-sizing: border-box;
+    border-radius: 50px;
+    text-indent: 18px;
+}

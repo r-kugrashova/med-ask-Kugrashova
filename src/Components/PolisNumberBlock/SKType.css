@@ -1,0 +1,83 @@
+.passiveLabel{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #626262;
+}
+.activeLabel{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+button:focus {outline:0;}
+
+.leftButton{
+    position: absolute;
+    width: 124px;
+    height: 42px;
+    left: calc(50% - 124px/2 - 61.5px);
+    top: calc(50% - 42px/2 - 175px);
+
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+}
+.leftButtonActive{
+    position: absolute;
+    width: 124px;
+    height: 42px;
+    left: calc(50% - 124px/2 - 61.5px);
+    top: calc(50% - 42px/2 - 175px);
+    background-color: #ED462F;
+
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.leftButton:hover{
+    width: 124px;
+    height: 42px;
+    border: 1px solid #ED462F;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.rightButton{
+    position: absolute;
+    width: 124px;
+    height: 42px;
+    left: calc(50% - 124px/2 + 62.5px);
+    top: calc(50% - 42px/2 - 175px);
+
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.rightButtonActive{
+    position: absolute;
+    width: 124px;
+    height: 42px;
+    left: calc(50% - 124px/2 + 62.5px);
+    top: calc(50% - 42px/2 - 175px);
+    background-color: #ED462F;
+
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+}
+.rightButton:hover {
+    width: 124px;
+    height: 42px;
+    border: 1px solid #ED462F;
+    box-sizing: border-box;
+    border-radius: 0px 5px 5px 0px;
+}
+
